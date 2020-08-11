@@ -4,6 +4,7 @@ import './App.css';
 // import EventBind from './components/Eventbind'
 // import Parent from './components/Parent'
 import NameList from './components/NameList'
+import StyleTest from './components/Styletest'
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       {/* <EventBind /> */}
     
         {/* <Parent /> */}
-        <NameList />
-     
+        {/* <NameList /> */}
+      <StyleTest primary={false}/>
       {/* <Greet name={'Dinesh'}/> */}
     </div>
   );
