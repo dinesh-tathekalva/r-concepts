@@ -14,6 +14,7 @@ class RenderProps extends Component {
         this.setState({
             flag: !this.state.flag,
             status: this.state.flag ? 'Log In' : 'Log Off'
+            
         })
     }
 
