@@ -32,3 +32,6 @@ function App() {
 }
 
 export default App;
+
+let employee = ['Christoph', 'Walter', 28, 'Male'] 
+let [fname, lname, age, gender] = employee
